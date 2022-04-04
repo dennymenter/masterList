@@ -2,16 +2,100 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Master List</title>
-	
 <link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+
+	
+	
+<style>
+
+	body, h1, h2, h3 {
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		margin: 0 0px 0px 0px;
+	}
+	
+	.myLogo {
+		max-height: 100px;
+		margin: 0!important;
+			
+	}	
+	
+	.stageSite:hover {
+		background-color: rgba(204,243,205,1.00);
+	}
+	
+	.liveSite:hover {
+		background-color: rgba(239,125,127,1.00);
+		color: white;
+	}
+	
+	.border {
+		border: 1 1 1 1;
+	}
+	
+	
+</style>
+	
+
+<!-- NAVBAR BEGIN  -->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+	  <a class="navbar-brand" href="#"><img src="images/logo2.jpg" class="myLogo"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Live Sites
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="https://www.ashleyfurnitureindustriesllc.com/">LLC</a>
+				  <a class="dropdown-item" href="#">Dream</a>
+				  <div class="dropdown-divider"></div>
+				  <a class="dropdown-item liveSite" href="#">LLC Sitecore</a>
+				  <a class="dropdown-item liveSite" href="#">Dream Sitecore</a>
+				</div>
+			  </li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Stage Sites
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+				  <a class="dropdown-item" href="#">LLC</a>
+				  <a class="dropdown-item" href="#">Dream</a>
+				  <div class="dropdown-divider"></div>
+				  <a class="dropdown-item stageSite" href="#">LLC Sitecore</a>
+				  <a class="dropdown-item stageSite" href="#">Dream Sitecore</a>
+				</div>
+			  </li>
+		  <li class="nav-item active">
+			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_dashboards/dashboard/b8e97b49-de66-4a8e-bc82-7e8a69e1e518">Dashboard</a>
+		  </li>
+		</ul>
+	  </div>
+</nav>	
+	
+	<!-- NAVBAR END -->
+	
+
 	
 	<h1>Master Task List</h1>
 	
-	<h3 class="testStyle">Here's a playground for all kinds of stuff ........</h3>
+	<h3 class="">Here's a playground for all kinds of stuff ........</h3>
 	
+	<p>This is just a site for me to experiment with. It will have a number of things on it, plus some handy navigation for my everyday work too.</p>
+	
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
 </body>
 </html>
