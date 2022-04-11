@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Master List</title>
+<title>My Master List</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 </head>
@@ -56,13 +56,27 @@
 		border: 1px solid grey;box-shadow: 5px 5px 10px 1px grey;;
 	}
 	
+	.logoButton {
+		border: 0
+	}
+
+	.logoButton:hover {
+		box-shadow: 2px 2px 1px 1px lightgrey;
+	}
+
+	.modal-content {
+		border: .5px solid rgba(179,178,178,1.00);
+		text-align: center;
+		padding: 20px 0 20px 0;
+	}
+	
 </style>
 	
 
 <!-- NAVBAR BEGIN  -->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-	  <a class="navbar-brand" href="#"><img src="images/logo2.jpg" class="myLogo"></a>
+	  <button class="navbar-brand logoButton" ><img src="images/logo2.jpg" class="myLogo" data-toggle="modal" data-target="#exampleModal3"></button>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
@@ -147,7 +161,20 @@
 		<p>This is just a site for me to experiment with. It will have a number of things on it, plus some handy navigation for my everyday work too.</p></div>
 	</div>
 	
+
 	
+	
+<!-- Modal dialog -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class = "modal-content">
+				Why did you click there?
+			</div>
+		</div>
+	</div>
+</div>
+
 	
 
 	
