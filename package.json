@@ -1,22 +1,4 @@
 {
-  "name": "masterlist",
-  "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dennymenter/masterList.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dennymenter/masterList/issues"
-  },
-  "homepage": "https://github.com/dennymenter/masterList#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.23"
   }
