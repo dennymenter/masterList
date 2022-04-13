@@ -1,34 +1,186 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+<style>
+    .prod-cats-width {
+        width: 800px;
+        max-width: 1000px;
+        ;
+    }
 
-<body>
+    .prod-cats-title {
+        font-weight: bold;
+        font-size: 10.0pt;
+        font-family: "Tahoma", sans-serif;
+        color: #5F6265;
+    }
+
+    .prod-cats-viewer {
+        height: 600px;
+    }
 	
-	<style>
+    .prod-cats-small-height {
+        height: 15rem;
+    }
+
+    .prod-cats-small-width {
+        width: 10rem;
+    }
+
+    .prod-cats-small-title {
+        font-weight: bold;
+        font-size: small;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #000;
+    }
+
+    .flexbox-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .flexbox-item {
+        width: 10rem;
+        margin: 2rem;
+    }
 	
-		.header-pic-box {
-			
-		}
+	.flex-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 	
-	</style>
+	.flex-col {
+		display: flex;
+		flex-direction: column;
+		margin-left:  1em !important;
+		margin-right: 1em !important;
+	}
 	
+	.desc-text {
+		font-weight: bold;
+		font-family: Tahoma, sans-serif;
+		color: #5F6265;
+		font-size: 1em;
+		max-width: 100px;
+	}
 	
-	<div class="header-pic-box">
-		<img src="images/find-retailer-2022.png">
+</style>
+
+
+<div class="prod-cats-width" style="margin: 0 auto;">
+    <script type="text/javascript" src="https://secure.api.viewer.zmags.com/viewer/viewer.js"></script>
+    <div class="prod-cats-title prod-cats-width"><span id="title"></span></div>
+    <div id="parentViewer" class="prod-cats-viewer"></div>
+    <br />
+</div>
+
+<br>
+<br>
+
+<div class="flex-row" style="margin-top:auto">
+
+	<div class="flex-col">
+		<img src="-/media/c9a8e311987f420e9bbc9aa7725bc5ea.ashx" alt="Outdoor Direct Express | 2022"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="bc47952a" name="Outdoor Direct Express | 2022"
+		class="">
+		<p class="desc-text">Outdoor Direct Express | 2022</p>
 	</div>
 	
-	
-	<div class="header-pic-box">
-		<img src="images/retailer-1.png">
+	<div class="flex-col">
+		<img src="-/media/c9a8e311987f420e9bbc9aa7725bc5ea.ashx" alt="Accent Seating | 2022"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="8da1fc6a" name="Accent Seating | 2022"
+		class="">
+		<p class="desc-text">Accent Seating | 2022</p>
+	</div>
+
+	<div class="flex-col">
+		<img src="-/media/2a779b0fd2134bf0b9a7e70e7e543e42.ashx" alt="Lighting | 2022"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="8da3ec6a" name="Lighting | 2022"
+		class="">
+		<p class="desc-text">Lighting | 2022</p>
+	</div>
+
+	<div class="flex-col">
+		<img src="-/media/e031e4fcc5e34b39be33ccaad14c0996.ash" alt="Outdoor | 2022"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="f9bc9b39" name="Outdoor | 2022"
+		class="">
+		<p class="desc-text">Outdoor | 2022</p>
 	</div>
 	
-	
-	<div class="header-pic-box">
-		<img src="images/retailer-2.jpg">
+	<div class="flex-col">
+		<img src="-/media/8BA38E5A99F149E0BE203F824D9AD291.ashx" alt="Wall Décor | Spring 2021"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="9549a7ab" name="Wall Décor | Spring 2021"
+		class="">
+		<p class="desc-text">Wall Décor | Spring 2021</p>
+	</div>
+
+	<div class="flex-col">
+		<img src="-/media/9E9530337AC54AF5AF7BA6C9BEC28D31.ashx" alt="Bedding Pillows & Throws | Spring 2021"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="b56babf9" name="Bedding Pillows & Throws | Spring 2021"
+		class="">
+		<p class="desc-text">Bedding Pillows & Throws | Spring 2021</p>
 	</div>
 	
-</body>
-</html>
+	<div class="flex-col">
+		<img src="-/media/8C245775E5464914BDF40B7394F43B3A.ashx" alt="Rugs | Spring 2021"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="f42e88fc" name="Rugs | Spring 2021"
+		class="">
+		<p class="desc-text">Rugs | Spring 2021</p>
+	</div>
+
+<!--
+	<div class="flex-col">
+		<img src="-/media/353AABC4F4F04D9D8BF7F888D3F41492.ashx" alt="Lamps | Spring 2021"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="f42f8c6e" name="Lamps | Spring 2021"
+		class="">
+		<p class="desc-text">Lamps | Spring 2021</p>
+	</div>
+-->
+
+	<div class="flex-col">
+		<img src="-/media/1BE8AFDF8675471CB138572C47242169.ashx" alt="Accessories | Spring 2021"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="f42e8cee" name="Accessories | Spring 2021"
+		class="">
+		<p class="desc-text">Accessories | Spring 2021"</p>
+	</div>
+
+
+	<div class="flex-col">
+		<img src="-/media/E5BF34978F5E44AD918B43AED347F68E.ashx" alt="Accent Furniture | Spring 2021"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="d45d862e" name="Accent Furniture | Spring 2021"
+		class="">
+		<p class="desc-text">Accent Furniture | Spring 2021</p>
+	</div>
+
+<!--
+	<div class="flex-col">
+		<img src="-/media/FE8FA6FFE1194038A61E691213C6BFA5.ashx" alt="Accent Chairs | Spring 2021"
+		style="cursor: pointer;width:10rem" onClick="clickItem(this.id)" id="f15ba3b8" name="Accent Chairs | Spring 2021"
+		class="">
+		<p class="desc-text">Accent Chairs | Spring 2021</p>
+	</div>
+</div>
+-->
+
+
+
+<script>
+    var openingTitle = "Outdoor Direct Express | 2022";
+    document.getElementById("title").innerHTML = openingTitle;
+
+    var catalogViewer = new com.zmags.api.Viewer();
+    catalogViewer.setPublicationID("bc47952a");
+    catalogViewer.setParentElementID("parentViewer");
+    catalogViewer.show();
+
+
+    function clickItem(element) {
+        var title = document.getElementById(element).getAttribute('name');
+        document.getElementById("parentViewer").innerHTML = "";
+        document.getElementById("title").innerHTML = title;
+        catalogViewer = new com.zmags.api.Viewer();
+        catalogViewer.setPublicationID(element);
+        catalogViewer.setParentElementID("parentViewer");
+        catalogViewer.show();
+    }
+</script>

@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
   "devDependencies": {
     "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "daisyui": "^2.13.6"
   }
 }

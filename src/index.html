@@ -6,9 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Master List</title>
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
-<link href="css/compiledstyles.css" rel="stylesheet" type="text/css">
-
-
+<link href="../public/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -64,6 +62,7 @@
 
 	.logoButton:hover {
 		box-shadow: 2px 2px 1px 1px lightgrey;
+		border: 1px solid grey;
 	}
 
 	.modal-content {
@@ -77,24 +76,24 @@
 
 <!-- NAVBAR BEGIN  -->
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-	  <button class="navbar-brand logoButton" ><img src="images/logo2.jpg" class="myLogo" data-toggle="modal" data-target="#exampleModal3"></button>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <button class="navbar-brand logoButton" ><img src="images/logo2.jpg" class="myLogo" data-toggle="modal" data-target="#exampleModal3" alt="none"></button>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
+		<ul class="navbar-nav">
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				  Live Sites
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <a class="dropdown-item" href="https://www.ashleyfurnitureindustriesllc.com/">LLC</a>
-				  <a class="dropdown-item" href="https://www.ahopetodream.com/">Dream</a>
+				  <a class="dropdown-item" href="https://www.ashleyfurnitureindustriesllc.com/" target="_blank">LLC</a>
+				  <a class="dropdown-item" href="https://www.ahopetodream.com/" target="_blank">Dream</a>
 				  <div class="dropdown-divider"></div>
-				  <a class="dropdown-item liveSite" href="http://razeup-afiweb01.ashleyretail.com/sitecore/login">LLC Sitecore</a>
-				  <a class="dropdown-item liveSite" href="http://ashcazp-h2d-001.ashleyretail.com/sitecore/login">Dream Sitecore</a>
+				  <a class="dropdown-item liveSite" href="http://razeup-afiweb01.ashleyretail.com/sitecore/login" target="_blank">LLC Sitecore</a>
+				  <a class="dropdown-item liveSite" href="http://ashcazp-h2d-001.ashleyretail.com/sitecore/login" target="_blank">Dream Sitecore</a>
 				</div>
 			  </li>
 			<li class="nav-item dropdown">
@@ -102,15 +101,15 @@
 				  Stage Sites
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-				  <a class="dropdown-item" href="#">LLC</a>
-				  <a class="dropdown-item" href="#">Dream</a>
+				  <a class="dropdown-item" href="#" target="_blank">LLC</a>
+				  <a class="dropdown-item" href="#" target="_blank">Dream</a>
 				  <div class="dropdown-divider"></div>
-				  <a class="dropdown-item stageSite" href="http://razeud-afiweb03.ashleyretail.com/sitecore/login">LLC Sitecore  (stage)</a>
-				  <a class="dropdown-item stageSite" href="http://ashcazd-h2d-001.ashleyretail.com/sitecore/login">Dream Sitecore (stage)</a>
+				  <a class="dropdown-item stageSite" href="http://razeud-afiweb03.ashleyretail.com/sitecore/login" target="_blank">LLC Sitecore  (stage)</a>
+				  <a class="dropdown-item stageSite" href="http://ashcazd-h2d-001.ashleyretail.com/sitecore/login" target="_blank">Dream Sitecore (stage)</a>
 					<div class="dropdown-divider"></div>
-				  <a class="dropdown-item stageSite" href="https://dev.azure.com/ashleyfurniture/AHopeToDream/_git/A%20Hope%20to%20Dream%20V2?path=/TEST.txt">Dream New Repo</a>
-				  <a class="dropdown-item stageSite" href="https://afi-hopetodream-dev-app.azurewebsites.net">Dream new test site</a>
-				  <a class="dropdown-item stageSite" href="https://portal.azure.com/#@masterashley.onmicrosoft.com/resource/subscriptions/f2330f9f-3a8b-498c-a2d6-476e4f263349/resourceGroups/afi-hopetodream-websites-rg/providers/Microsoft.Web/sites/afi-hopetodream-dev-app/appServices">Dream New Azure Dashboard</a>
+				  <a class="dropdown-item stageSite" href="https://dev.azure.com/ashleyfurniture/AHopeToDream/_git/A%20Hope%20to%20Dream%20V2?path=/TEST.txt" target="_blank">Dream New Repo</a>
+				  <a class="dropdown-item stageSite" href="https://afi-hopetodream-dev-app.azurewebsites.net" target="_blank">Dream new test site</a>
+				  <a class="dropdown-item stageSite" href="https://portal.azure.com/#@masterashley.onmicrosoft.com/resource/subscriptions/f2330f9f-3a8b-498c-a2d6-476e4f263349/resourceGroups/afi-hopetodream-websites-rg/providers/Microsoft.Web/sites/afi-hopetodream-dev-app/appServices" target="_blank">Dream New Azure Dashboard</a>
 				
 				</div>
 			  </li>
@@ -119,55 +118,58 @@
 				  Tools
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <a class="dropdown-item" href="https://hackerthemes.com/bootstrap-cheatsheet/">Bootstrap Cheat Sheet</a>
-				<a class="dropdown-item" href="https://xd.adobe.com/view/b43f38e4-a325-498b-986c-57d0ba0ce586-e16c/screen/d3b7459c-9efd-4867-bd65-46fb4aee474c/">Dream mockup</a>
+				  <a class="dropdown-item" href="https://hackerthemes.com/bootstrap-cheatsheet/" target="_blank">Bootstrap Cheat Sheet</a>
+				<a class="dropdown-item" href="https://xd.adobe.com/view/b43f38e4-a325-498b-986c-57d0ba0ce586-e16c/screen/d3b7459c-9efd-4867-bd65-46fb4aee474c/" target="_blank">Dream mockup</a>
 				</div>
 			  </li>
-		  <li class="nav-item active ml-auto">
-			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_dashboards/dashboard/b8e97b49-de66-4a8e-bc82-7e8a69e1e518">Dashboard</a>
+		  <li class="nav-item active ">
+			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_dashboards/dashboard/b8e97b49-de66-4a8e-bc82-7e8a69e1e518" target="_blank">Dashboard</a>
 		  </li>
-		  <li class="nav-item active ml-auto">
-			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_wiki/wikis/AFI-Websites.wiki/2388/Web-Sites">WIKI</a>
+		  <li class="nav-item active ">
+			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_wiki/wikis/AFI-Websites.wiki/2388/Web-Sites" target="_blank">WIKI</a>
 		  </li>
 		  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				  Personal
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-				  <a class="dropdown-item" href="https://calendar.google.com/calendar/u/0/r">Calendar</a>
-				  <a class="dropdown-item" href="https://ticktick.com/webapp/#q/all/tasks">To Do List</a>
-				  <a class="dropdown-item" href="https://photos.google.com/?pli=1">Photos</a>
-				  <a class="dropdown-item" href="https://drive.google.com/drive/my-drive">Google Drive</a>
-				  <a class="dropdown-item" href="https://www.myfitnesspal.com/food/diary">Fitness Pal</a>
+				  <a class="dropdown-item" href="https://calendar.google.com/calendar/u/0/r" target="_blank">Calendar</a>
+				  <a class="dropdown-item" href="https://ticktick.com/webapp/#q/all/tasks" target="_blank">To Do List</a>
+				  <a class="dropdown-item" href="https://photos.google.com/?pli=1" target="_blank">Photos</a>
+				  <a class="dropdown-item" href="https://drive.google.com/drive/my-drive" target="_blank">Google Drive</a>
+				  <a class="dropdown-item" href="https://www.myfitnesspal.com/food/diary" target="_blank">Fitness Pal</a>
 				</div>
 			  </li>
+			<li class="">add a right margin!</li>
+ 			<li class="nav-item active">
+				<a class="nav-link border ml-auto" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_wiki/wikis/AFI-Websites.wiki/2388/Web-Sites">BUTTON</a>
+		  </li>
 		</ul>
 	  </div>
 </nav>	
 	
 	<!-- NAVBAR END -->
 	
-<p>example of justifying right:</p>
-<div class="d-flex">
-  <div class="mr-auto">Flex item</div>
-  <div class="">Flex item</div>
-  <div class="">Flex item</div>
-</div>
-	
-	
 	
 	<div class="flex-row border-primary">
-		<div class="flex-col border-and-shadow"><h1>Master Task List</h1>
+		<div class="flex-col shadow-lg text-xl"><h1>Master Task List</h1>
 		<h3 class="">Here's a playground for all kinds of stuff ........</h3>
 		<p>This is just a site for me to experiment with. It will have a number of things on it, plus some handy navigation for my everyday work too.</p></div>
 	</div>
 	
+<br>
+<br>
+<br>
 
-	<div class="text-fuchsia-500 text-5xl">
-		Test of Tailwind
+	
+	<div class="flex-row max-w-2xl">
+		<div class="flex-col border-black border-2">
+			col 1
+		</div>
+		<div class="flex-col border-black border-2 ml-auto">
+			RIGHT
+		</div>
 	</div>
-
-
 	
 	
 <!-- Modal dialog -->
@@ -181,7 +183,7 @@
 	</div>
 </div>
 
-	
+
 
 	
 <script src="js/jquery-3.4.1.min.js"></script>
