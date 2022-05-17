@@ -1,74 +1,63 @@
-const links = `
-{
-	"nav-links": [
-	  {
-		"desc": "HOME",
-		"link": "www.mainmenu.com",
-		"submenu": [
-		]
-	  },
-	  {
-		"desc": "NOT HOME!",
-		"link": "#",
-		"submenu": [
-		  {
-			"desc": "sub menu 1",
-			"link": "www.sub1.com"
-		  },
-		  {
-			"desc": "sub menu 2",
-			"link": "www.sub2.com"
-		  }
-		]
-	  }
-	]
-  }
-`
+function getCMSLinks () {
 
-
-function createlinks () {
-
-    var linkHTML = document.getElementById("linkList");
 	var menuList = document.getElementById("mainmenuset");
-	var returnHTML = "";
-	var navbarCounter = 1;
+	let outputHTML = "";
 
-    const linkList = JSON.parse(links);
-
-	const liItemStart = `
-	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	`
-	const liItemEnd = `
-		</a>
-	`
-
-
-
-	// loop through menus
-	if (linkList["nav-links"].length > 0) {
-
-		linkList["nav-links"].forEach(element => {
-			
-			console.log(element.desc);
-			console.log(element.link);
-			returnHTML += liItemStart + 
-				element.desc + liItemEnd;
-
-				// check if there are submenus
-			if (element.submenu.length > 0) {
-
-				element.submenu.forEach(element => {
-					console.log(element.desc);
-					console.log(element.link);					
-				});
-			}	
-		});
-
-			} else {
-				console.log("error - no menu items available")
+	fetch(
+	  'https://api-us-east-1.graphcms.com/v2/cl3aevzvn0kz401yyd0d8cmc9/master',
+	  {
+		method: 'POST',
+		headers: {
+		  'Content-Type': 'application/json',
+		  Accept: 'application/json',
+		},
+		body: JSON.stringify({
+		  query: `
+		  query getMenus {
+			navMenus {
+			  id
+			  menuTitle
+			  navSubmenus {
+				id
+				link
+				submenuTitle
+			  }
 			}
+		  }
+		`,
+		}),
+	  }
+	)
+	  .then((res) => {
+		if (!res.ok) return Promise.reject(response);
+		return res.json();
+	  })
+	  .then((res) => {
 
-			menuList.innerHTML = returnHTML;
-	}
+		const  menus  = res.data;
+		console.log(menus);
+
+		outputHTML += '<div id="mainmenuset">'
 
 
+		// support two menu levels
+		menus.navMenus.forEach(menu => {
+			// main titles
+			console.log("title = " + menu.menuTitle);
+			outputHTML += `<h2>${menu.menuTitle}</h2>`
+
+			//submenus
+			menu.navSubmenus.forEach(submenu => {
+				console.log(submenu.submenuTitle);
+				console.log(submenu.link);
+				outputHTML += `<p><a href="${submenu.link}" target="_blank">${submenu.submenuTitle}</a></p>`
+			})
+
+
+			})
+
+			outputHTML += `</div>`
+			menuList.innerHTML = outputHTML;
+		})
+
+	};
