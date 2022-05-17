@@ -22,6 +22,7 @@ function getCMSLinks () {
 				link
 				submenuTitle
 			  }
+			link
 			}
 		  }
 		`,
@@ -44,7 +45,14 @@ function getCMSLinks () {
 		menus.navMenus.forEach(menu => {
 			// main titles
 			console.log("title = " + menu.menuTitle);
-			outputHTML += `<h2>${menu.menuTitle}</h2>`
+			console.log("LINK = " + menu.link);
+			
+
+			if (menu.link) {
+				outputHTML += `<a href="${menu.link}" target="_blank"><h2>${menu.menuTitle}</h2></a>`	
+			} else {
+				outputHTML += `<h2>${menu.menuTitle}</h2>`
+			}
 
 			//submenus
 			menu.navSubmenus.forEach(submenu => {
