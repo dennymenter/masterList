@@ -8,7 +8,8 @@
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <link href="./css/styles.css" rel="stylesheet" type="text/css">
-	
+<link href="./css/output.css" rel="stylesheet" type="text/css">
+
 </head>
 
 	
@@ -72,7 +73,6 @@
 	
 </style>
 	
-<!--<body background="https://picsum.photos/200 "  style="background-repeat: no-repeat; background-size: contain;">-->
 <body>
 <!-- NAVBAR BEGIN  -->
 
@@ -134,7 +134,7 @@
 			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_wiki/wikis/AFI-Websites.wiki/2388/Web-Sites" target="_blank">WIKI</a>
 		  </li>
 			<li class="nav-item active ">
-			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_sprints/taskboard/AFI%20Websites%20Team/AFI%20Websites/2022-5-1" target="_blank">Sprint</a>
+			<a class="nav-link border" href="https://dev.azure.com/ashleyfurniture/AFI%20Websites/_sprints/taskboard/AFI%20Websites%20Team/AFI%20Websites/5-2" target="_blank">Sprint</a>
 		  </li>
 			
 			
@@ -163,8 +163,8 @@
 	
 	
 	<div class="flex-row border-primary">
-		<div class="flex-col shadow-lg text-xl"><h1>Master Task List</h1>
-		<h3 class="">Here's a playground for all kinds of stuff ........</h3>
+		<div class="flex-col shadow-lg text-xl"><h1 id="title">(loading)</h1>
+		<h3 class="subtitle" id="subtitle">(loading)</h3>
 		<p>This is just a site for me to experiment with. It will have a number of things on it, plus some handy navigation for my everyday work too.</p></div>
 	</div>
 	
@@ -186,19 +186,22 @@
 <pre>Menus driven by CMS:</pre>
 <div id="linkList">
 	<div id="mainmenuset">
-		<h2>pladeholder</h2>
+		<h2>placeholder</h2>
 		<p><a href="#">placeholder</a></p>
 	</div>
 </div>
 
+
 <script src="./js/links.js"></script>
+<script src="./js/home.js"></script>
 
 
 
 <!-- <script>createlinks()</script> -->
 <!--testing-->
 
-<script>getCMSLinks()</script>
+<!-- <script>getCMSLinks()</script> -->
+<script>getHomeLinks()</script>
 
 	
 <script src="js/jquery-3.4.1.min.js"></script>
