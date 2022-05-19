@@ -6,18 +6,28 @@
     <title>My Cards!</title>
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
-    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
     <link href="./css/output.css" rel="stylesheet" type="text/css">
 
 </head>
+
+<style>
+    .footer {
+        font-size: large;
+    }
+</style>
+
 <body>
 
-    <div class="cards w-4">
-        <div>
-            
-        </div>
+
+
+    <div class="grid grid-cols-6 gap-4 ml-10 mr-10 justify-center hover:shadow" id="footer">
+        <!-- <div class="footer">xxx</div> -->
     </div>
+    
+    <script src="./js/card.js"></script>
+
+    <script>getCards();</script>
 
 </body>
 </html>
