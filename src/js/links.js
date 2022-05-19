@@ -41,27 +41,19 @@ function getCMSLinks () {
 		outputHTML += '<div id="mainmenuset">'
 
 
-		// support two menu levels
+		// support one menu level underneath header
 		menus.navMenus.forEach(menu => {
 			// main titles
-			console.log("title = " + menu.menuTitle);
-			console.log("LINK = " + menu.link);
-			
-
 			if (menu.link) {
-				outputHTML += `<a href="${menu.link}" target="_blank"><h2>${menu.menuTitle}</h2></a>`	
+				outputHTML += `<a href="${menu.link}" target="_blank"><div class="link-header">${menu.menuTitle}</div></a>`	
 			} else {
-				outputHTML += `<h2>${menu.menuTitle}</h2>`
+				outputHTML += `<div class="link-header">${menu.menuTitle}</div>`
 			}
 
 			//submenus
 			menu.navSubmenus.forEach(submenu => {
-				console.log(submenu.submenuTitle);
-				console.log(submenu.link);
-				outputHTML += `<p><a href="${submenu.link}" target="_blank">${submenu.submenuTitle}</a></p>`
-			})
-
-
+				outputHTML += `<p class="submenu"><a href="${submenu.link}" target="_blank">${submenu.submenuTitle}</a></p>`
+					})
 			})
 
 			outputHTML += `</div>`
