@@ -45,7 +45,7 @@ function getHomeLinks () {
 		mainTitle.innerText = home.homePages[0].title;
 		subtitle.innerText = home.homePages[0].subtitle;
 		document.body.style.backgroundImage = "url('" + home.homePages[0].
-backgroundImage.url + "')";
+		backgroundImage.url + "')";
 		})
 
 	}
