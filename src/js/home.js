@@ -1,4 +1,4 @@
-function getHomeLinks () {
+function getHomeElements () {
 
 	var mainTitle = document.getElementById("title");
 	var subtitle = document.getElementById("subtitle");
