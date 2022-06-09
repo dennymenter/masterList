@@ -15,7 +15,7 @@ function getCMSLinks () {
 		body: JSON.stringify({
 		  query: `
 		  query getMenus {
-			navMenus {
+			navMenus (orderBy: menuOrder_ASC) {
 			  id
 			  menuTitle
 			  navSubmenus {

@@ -9,7 +9,7 @@
 
 <style>
   .container {
-    border: 1px solid black;
+    border: 1px dotted red;
   }
 </style>
 
@@ -20,12 +20,22 @@
 
 
 <div class="container">
-
-  <iframe src="final-catalog.html" frameborder="0" height="100%" width="100%"></iframe>
-
+  <iframe id="frame" src="final-catalog.html" frameborder="0" height="100%" width="100%"></iframe>
 </div>
 
   <p>END OF TEXT</p>
 
+
+<script>
+  const frame = document.getElementById("frame");
+
+  window.addEventListener('resize', () => {
+    // console.log(frame.contentWindow.document.body.height)
+    // frame.style.height = frame.style.height * .9;
+  }
+)
+
+
+</script>
 </body>
 </html>

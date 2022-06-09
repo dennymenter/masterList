@@ -47,5 +47,4 @@ function getHomeElements () {
 		document.body.style.backgroundImage = "url('" + home.homePages[0].
 		backgroundImage.url + "')";
 		})
-
 	}
