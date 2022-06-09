@@ -1,3 +1,5 @@
+// version 2
+
 function getCMSLinks () {
 
 	var menuList = document.getElementById("navbarSupportedContent");
