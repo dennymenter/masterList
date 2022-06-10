@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .modalWindow {
+        position: absolute;
+        height: 80%;
+        width: 80%;
+        overflow: hidden;
+        border: 1px solid black  ;
+        border: 1px solid black;
+        border-radius: 2em;
+        float: left;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        background-color: white;
+    }
+
+
+    .hideMe {
+        display: none;
+    }
+
+
+</style>
+
+<body>
+
+    
+
+    
+<div class="header" >PRODUCT CATALOG (click the thumbnail)
+    <div class="catalog-container">
+        <a href="#" >
+        </a>
+    </div>
+</div>
+
+
+
+<button>
+    <img src="./images/Bryan/thumbnail.jpg" alt="" id="modal" style="position: relative" onclick="modelClick()">
+</button>
+
+<div id ="modalWindow" class="modalWindow hideMe">
+        <object type="text/html" data="https://xop.cjm.mybluehost.me/wp-content/uploads/2022/06/afi-books/accentseating/index.html" width="100%" height="100%"  style="overflow:auto">
+        </object>
+</div>
+
+
+<script>
+
+    //show modal on click
+    const modal = document.getElementById("modalWindow");
+
+    function modelClick () {
+        // alert("test");
+        if (modal.classList.contains("hideMe")) {
+            modal.classList.remove("hideMe")
+        } else {
+            modal.classList.add("hideMe");
+        }
+ 
+        }
+
+</script>
+
+</body>
+</html>
