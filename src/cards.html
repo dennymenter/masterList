@@ -8,26 +8,70 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="./css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
     <link href="./css/output.css" rel="stylesheet" type="text/css">
-
 </head>
 
 <style>
-    .footer {
-        font-size: large;
+
+    .temp-border {
+        /* border: 1px solid black; */
     }
+
+    .card {
+        min-height: 200px;
+    }
+
+    .container-modal {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+
 </style>
 
 <body>
 
 
+<div class="grid grid-cols-3">
+    <button onclick="showCardContents('card1')" class="card temp-border border-gray-300 rounded-xl m-4 shadow-xl">
+        <div class="grid grid-cols-2 temp-border">
+        <div class="card-img p-2 rounded-xl border-black temp-border"><img src="https://picsum.photos/200 " alt=""></div>
+        <div class="col2-container">
+            <div class="card-title temp-border font-sans text-3xl">Live Sites</div>
+            <div class="card-title temp-border font-mono">Link to live site information</div>
+            <!-- <a href="#"><div class="card-title temp-border border-2 hover:text-gray-500 hover:shadow-2xl hover:bg-slate-500 hover:border-gray-500 border-black rounded-2xl p-2 mr-20 text-center">go ..</a></div> -->
+        </div>
+        </div>
+    </button>
+</div>
+
+<!-- id will be generated when CMS is queried -->
+<div id="card1" class="container-modal border-2 m-32 border-black shadow-2xl rounded-bl-3xl p-4 invisible">
+    This is where link info will be shown
+</div>
 
 
-    
 
-    <div class="grid grid-cols-6 gap-4 ml-10 mr-10 justify-center hover:shadow" id="footer">
-        <!-- <div class="footer">xxx</div> -->
-    </div>
-    
+<a href="index.html">HOME</a>
+
+
+    <script>
+        
+        function showCardContents (id) {
+            const contents = document.getElementById(id);
+
+            if (contents.classList.contains("invisible")) {
+                contents.classList.remove("invisible");
+            } else {
+                contents.classList.add("invisible");
+            }
+
+        }
+        
+    </script>
+
+
     <script src="./js/card.js"></script>
 
     <script>getCards();</script>

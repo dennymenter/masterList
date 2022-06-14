@@ -8,34 +8,33 @@
 
 
 <style>
-  .container {
-    border: 1px dotted red;
+  @media screen and (min-width:768px) {
+  .cat-container {
+      border: 1px solid black !important;
+      height: 600px !important;
+      width: 100%;
+      }
   }
+  
+  
+  @media screen and (max-width:767px) {
+      .cat-container {
+      border: 1px solid red;
+      height: 300px !important;
+      width: 100%;
+      }
+  }
+
+
 </style>
 
+</head>
 <body>
-  
 
-  <p>START OF TEXT</p>
+<div >
+<iframe class="cat-container" src="https://xop.cjm.mybluehost.me/wp-content/uploads/2022/06/afi-books/accentseating/index.html" frameborder="0" height="" width="">   </iframe>
 
-
-<div class="container">
-  <iframe id="frame" src="final-catalog.html" frameborder="0" height="100%" width="100%"></iframe>
 </div>
 
-  <p>END OF TEXT</p>
-
-
-<script>
-  const frame = document.getElementById("frame");
-
-  window.addEventListener('resize', () => {
-    // console.log(frame.contentWindow.document.body.height)
-    // frame.style.height = frame.style.height * .9;
-  }
-)
-
-
-</script>
 </body>
 </html>
