@@ -39,7 +39,7 @@ function getCMSLinks () {
 	  .then((res) => {
 
 		const  menus  = res.data;
-		console.log(menus);
+		// console.log(menus);
 
 		outputHTML = `<ul class="navbar-nav">`
 

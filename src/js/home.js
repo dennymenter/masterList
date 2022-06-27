@@ -18,15 +18,19 @@ function getHomeElements () {
 		},
 		body: JSON.stringify({
 		  query: `
-		  query homePage {
+		  query MyQuery {
 			homePages {
+			  id
 			  title
-			  subtitle
+			  siteDescription {
+				html
+			  }
 			  backgroundImage {
 				url
 			  }
 			}
 		  }
+		  
 		`,
 		}),
 	  }
@@ -41,9 +45,12 @@ function getHomeElements () {
 		// console.log(home.homePages[0].title);
 		// console.log(home.homePages[0].subtitle);
 		// console.log(home.homePages[0].backgroundImage.url);
+		console.log(home.homePages[0].siteDescription);
 
 		mainTitle.innerText = home.homePages[0].title;
-		subtitle.innerText = home.homePages[0].subtitle;
+		subtitle.innerHTML = home.homePages[0].siteDescription.html;
+
+
 		document.body.style.backgroundImage = "url('" + home.homePages[0].
 		backgroundImage.url + "')";
 		})

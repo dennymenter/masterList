@@ -31,7 +31,7 @@ function getCards () {
 		const cards  = res.data;
 
         cards.cards.forEach(element => {
-            console.log(element.cardTitle);
+            // console.log(element.cardTitle);
             footer.innerHTML += `<a href="http://${element.cardLink}" target="_blank"><div class="footer ">${element.cardTitle}</div></a>`;
         });
 	
