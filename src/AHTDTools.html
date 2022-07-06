@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools</title>
+
+    <link href="./css/output.css" rel="stylesheet" type="text/css">
+ 
+
+<style>
+
+    * {
+        /* border: 1px dotted green; */
+    }
+
+    body{
+        padding: 50px;
+    }
+</style>
+
+</head>
+<body>
+    <p>This will be a tools page for some common tasks</p>
+<br>
+<hr>
+<div class="whoweareSource border-2 border-black p-10 bg-gray-200 relative">
+<p>For the Who We Are page, enter the values below to create the HTML
+</p>
+<div class="invisible absolute right-5 top-5 border-4" id="resultVideo">
+    Preview
+</div>
+
+
+<br>        
+<label for="">YouTube Embed source:</label>
+<br>
+<input type="text" id="youTubeSrc" size="75" class="border-2 border-gray-400">
+<br>
+<label for="">YouTube Movie ID:</label>
+<br>
+<input type="text" id="youTubeID" class="border-2 border-gray-400">
+<br>
+<br>
+<button id="getCode" class="border-2 border-gray-400 p-3" onclick="getMovieCode()">Get Code</button>
+<br><br>
+<button id = "clear" class="border-2 border-gray-400 p-3">Clear</button>
+<br><br>
+<label for="">output:</label><br>
+<textarea id="results" rows="10" cols="100" class="border-2 border-gray-400"></textarea>
+<br>
+<button id="preview" class="invisible border-2 border-gray-400 p-3">Preview</button>
+</div>
+
+<p>To improve:</p>
+<p>Make options to choose loop, autoplay, restrction </p>
+<p>add cliiboard copy</p>
+
+
+
+
+
+<script src="./js/tools.js"></script>
+
+
+</body>
+</html>

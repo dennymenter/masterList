@@ -1,0 +1,1 @@
+alert("got to nav.js")
