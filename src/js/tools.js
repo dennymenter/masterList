@@ -4,21 +4,42 @@ const results = document.getElementById("results");
 const clear = document.getElementById("clear");
 const preview = document.getElementById("preview");
 const resultVideo = document.getElementById("resultVideo");
+const copy = document.getElementById("copy");
 
 
 clear.addEventListener("click", () => {
-    console.log("clicked here");
-    
-
-    console.log(src.value);
     src.value = "";
     movieID.value = "";
     results.value = "";
+    resultVideo.classList.remove("visible");
+    resultVideo.classList.add("invisible");
+    preview.classList.remove("visible");
+    preview.classList.add("invisible");
+})
+
+src.addEventListener("keyup", () => {
+
+    let lastSlashIndex = src.value.lastIndexOf("/");
+    let firstQuestionMarkIndex = src.value.indexOf("?");
+    
+    console.log("1st = " + lastSlashIndex + "  last = " + firstQuestionMarkIndex);
+
+    movieID.value = src.value.substring(lastSlashIndex+1);
+
 })
 
 preview.addEventListener("click", () => {
     resultVideo.classList.remove("invisible");
     resultVideo.classList.add("visible");
+})
+
+copy.addEventListener("click", () => {
+    //select text
+    results.select();
+    //copy
+    document.execCommand("Copy");
+
+    alert("code copied to clipboard");
 })
 
 
