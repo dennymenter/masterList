@@ -8,18 +8,17 @@
     <link href="./css/output.css" rel="stylesheet" type="text/css">
  
 
-<style>
+    <style>
+        * {
+            /* border: 1px dotted green; */
+        }
 
-    * {
-        /* border: 1px dotted green; */
-    }
-
-    body{
-        padding: 50px;
-    }
-</style>
-
+        body{
+            padding: 50px;
+        }
+    </style>
 </head>
+
 <body>
     <p>This will be a tools page for some common tasks</p>
 <br>
@@ -50,16 +49,15 @@
 <textarea id="results" rows="10" cols="100" class="border-2 border-gray-400"></textarea>
 <br>
 <button id="preview" class="invisible border-2 border-gray-400 p-3">Preview</button>
-<button id="copy" class="xxxxxxinvisible border-2 border-gray-400 p-3">Copy to clipboard</button>
+<button id="copy" class="invisible border-2 border-gray-400 p-3">Copy to clipboard</button>
 </div>
 
 <p>To improve:</p>
 <p>Make options to choose loop, autoplay, restriction </p>
 <p>fix issue when not valid movie - load an error message</p>
 
-
+	
 <script src="./js/tools.js"></script>
-
 
 </body>
 </html>

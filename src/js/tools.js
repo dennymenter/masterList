@@ -4,7 +4,7 @@ const results = document.getElementById("results");
 const clear = document.getElementById("clear");
 const preview = document.getElementById("preview");
 const resultVideo = document.getElementById("resultVideo");
-const copy = document.getElementById("copy");
+const copyBtn = document.getElementById("copy");
 
 
 clear.addEventListener("click", () => {
@@ -15,6 +15,7 @@ clear.addEventListener("click", () => {
     resultVideo.classList.add("invisible");
     preview.classList.remove("visible");
     preview.classList.add("invisible");
+    copyBtn.classList.add("invisible");
 })
 
 src.addEventListener("keyup", () => {
@@ -62,7 +63,9 @@ function getMovieCode() {
 
     // show preview button
     preview.classList.remove("invisible");
-    preview.classList.add("visible");
+    preview.classList.remove("invisible");
+    copyBtn.classList.remove("invisible");
+    copyBtn.classList.add("visible");
 }
 
 

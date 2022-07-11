@@ -45,7 +45,7 @@ function getHomeElements () {
 		// console.log(home.homePages[0].title);
 		// console.log(home.homePages[0].subtitle);
 		// console.log(home.homePages[0].backgroundImage.url);
-		console.log(home.homePages[0].siteDescription);
+		// console.log(home.homePages[0].siteDescription);
 
 		mainTitle.innerText = home.homePages[0].title;
 		subtitle.innerHTML = home.homePages[0].siteDescription.html;
