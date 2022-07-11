@@ -41,7 +41,7 @@ function getFeatures () {
 			
 			feature.innerHTML +=
 			`
-				<a href="features/${element.pageSlug}.html">${element.title}</a><br>
+				<a href="features/${element.pageSlug}.html" target = "_new">${element.title}</a><br>
 			`			
 			console.log(feature.innerHTML);
 	    })
