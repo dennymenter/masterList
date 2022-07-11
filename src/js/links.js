@@ -69,7 +69,7 @@ function getCMSLinks () {
 				} else { //button only
 					outputHTML += `
 					<li class="nav-item active ">
-						<a class="nav-link border" href="${menu.link}" target="_blank">${menu.menuTitle}</a>
+						<a class="nav-link border" href="./features/${menu.link}" target="_blank">${menu.menuTitle}</a>
 					</li>
 					`
 				// finish off LI tag

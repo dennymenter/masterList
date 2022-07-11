@@ -3,9 +3,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TestPage</title>
+
+    <link href="css/out" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/output.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+
+<style>
+
+  * {
+    border: 1px solid green;
+  }
+
+  body {
+    font-family: 'Edu TAS Beginner', cursive;
+  }
+
+  .bodyBackground {
+    /* background of the entire page when modal is displayed  */
+    background-color: rgba(66, 55, 55, 0.438);
+  }
+
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .modal-container {
+    margin: 10%;
+    /* border: 10px solid green; */
+  }
+
+  .modalbox {
+    /* THIS ADJUSTS THE WIDTH/SIZE OF THE MODAL */
+    /* make sure these add up to 100% */
+
+    width: 70%;
+    margin-left: 15%;    /*  (x 2 = margin on each side) */
+  }
+
+</style>
+
 </head>
-<body>
-    <h1>Modal window</h1>
+
+<!-- will assign the background here from JS -->
+<body id="bodyBackground">
+
+  <h1>Modal example</h1>
+  
+
+<br>
+
+
+<button id="open" class="border-black border-2 p-2">OPEN</button>
+
+<!-- modal  -->
+<div id="modalBox" class="modalbox absolute top-0 invisible" >
+  <div class="modal-container">
+    <div class="iframe-container">
+      <iframe class="iFrameMovie" id="" 
+      src= "https://www.youtube.com/embed/xMC-KeB2HeI?rel=0&autoplay" height="100%" width="100%" title="Ashley Furniture"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0">
+      </iframe>
+    </div>
+    <button id="close" class="border-2 border-black p-2">CLOSE</button>
+  </div>
+</div>
+<!-- modal  -->
+
+
+
+<div id = "test" class="test invisible">TEST</div>
+
+
 </body>
+
+
+
+<script>
+
+  const closeButton = document.getElementById("close");
+  const openButton = document.getElementById("open");
+  const modalWindow = document.getElementById("modalBox");
+  const body = document.getElementById("bodyBackground");
+  
+  
+
+  //open button clicked
+  openButton.addEventListener("click", () => {
+    modalWindow.classList.toggle("invisible");
+    body.classList.toggle("bodyBackground")
+
+  })
+
+  //close button clicked
+    closeButton.addEventListener("click", () => {
+    modalWindow.classList.toggle("invisible");
+    body.classList.toggle("bodyBackground")
+  })
+
+</script>
+
+
+
+
+
 </html>
