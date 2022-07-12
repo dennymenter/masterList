@@ -1,8 +1,6 @@
-// version 2
+export function getCMSLinks () {
 
-function getCMSLinks () {
-
-	var menuList = document.getElementById("navbarSupportedContent");
+	let menuList = document.getElementById("navbarSupportedContent");
 	let outputHTML = "";
 	let dropDownIDCounter = 1;
 

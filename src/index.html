@@ -18,20 +18,17 @@
 		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 		margin: 0px 0px 0px 0px;
 	}
+
+	.body-background {
+		background-image: url("./images/loading.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 	
 	.myLogo {
 		max-height: 100px;
 		margin: 0!important;
 	}	
-	
-	.stageSite:hover {
-		background-color: rgba(204,243,205,1.00);
-	}
-	
-	.liveSite:hover {
-		background-color: rgba(239,125,127,1.00);
-		color: white;
-	}
 	
 	.flex-row {
 		display:flex;
@@ -46,9 +43,6 @@
 		padding: 15px 15px 15px 15px ;
 	}
 	
-	.border-and-shadow {
-		border: 1px solid grey;box-shadow: 5px 5px 10px 1px grey;;
-	}
 	
 	.logoButton {
 		border: 0
@@ -74,11 +68,36 @@
 		font-size: small;
 		margin-left: 30px;
 	}
-	
+
+	#summary-container{
+		animation: fadein;
+		animation-duration: 2000ms;
+		animation-delay: 3000ms;
+		animation-fill-mode: forwards;
+		opacity: 0;
+
+	}
+
+	@keyframes fadein {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+		
 </style>
 	
 <body>
+
+	<h1 class="text-2xl">Still have api module to get exported/imported</h1>
+
+
 <!-- NAVBAR BEGIN  -->
+
+<div id="loader" class="body-background">
 
 	<nav class="navbar navbar-expand-md navbar-light bg-light">
 	  <button class="navbar-brand logoButton" ><img src="images/logo2.jpg" class="myLogo" data-toggle="modal" data-target="#exampleModal3" alt="none"></button>
@@ -90,14 +109,14 @@
 		<ul class="navbar-nav" >
 			
 		</ul>
-		  <span class="nav-item ml-auto">RIGHT COLUMN</span>
+
 	  </div>
 </nav>	
 	
 	<!-- NAVBAR END -->
 	
-	<div class="flex-row border-primary">
-		<div class="flex-col shadow-lg text-xl"><h1 id="title">(loading)</h1>
+	<div class="flex-row border-primary" >
+		<div class="flex-col shadow-lg text-xl" id="summary-container"><h1 id="title">(loading)</h1>
 		<h3 class="subtitle" id="subtitle">(loading)</h3>
 		</div>
 	</div>
@@ -119,19 +138,23 @@
 
 <div id="featureTitle"></div>
 
-<script src="./js/links.js"></script>
-<script src="./js/home.js"></script>
+</div>
+<br><hr>
+<div id="logger"></div>
+
+
+<script src="./js/home.js" type="module"></script>
 <script src="./js/api.js"></script>
-
-
-<script>getCMSLinks()</script>
-<script>getHomeElements()</script>
-<script>getFeatures()</script>
-
 
 	
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
+
+
+
+
+
+
 </body>
 </html>

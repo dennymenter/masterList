@@ -1,3 +1,6 @@
+getFeatures()
+
+
 function getFeatures () {
 
 
@@ -43,7 +46,7 @@ function getFeatures () {
 			`
 				<a href="features/${element.pageSlug}.html" target = "_new">${element.title}</a><br>
 			`			
-			console.log(feature.innerHTML);
+			// console.log(feature.innerHTML);
 	    })
 		
 	})
