@@ -6,17 +6,38 @@
 	
 	
 <link href="css/main.css" rel="stylesheet" type="text/css">
+
+
+<style>
+	.parent {
+
+	}
+
+	.child {
+		display: none;
+		position: absolute;
+		/* top: 10px; */
+		background-color: aliceblue;
+	}
+
+	.parent:hover p {
+		display: block;
+	}
+</style>
+
 </head>
 <body>
 
-	<div class="card-container">
-	
-		<div class="card">
-			<div>Test card here for 3D testing</div>
-		</div>
-	
-	</div>
+	<h1>Trying a tooltip</h1>
 
+	<button class="parent">How do I do this?
+		<p class="child">
+			If you don't know, don't bother
+		</p>
+	</button>
+
+
+	<p>TEST</p>
 	
 </body>
 </html>
