@@ -4,8 +4,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .mybutton {
+            background-color: white;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        .tip {
+            display: none;
+            background-color: forestgreen;
+            border: 1px solid black;            
+            position: absolute;
+            top: -5%;
+            left: 0%;
+        }
+
+        .mybutton:hover .tip {
+            display: block;
+        }
+
+    </style>
+
+
 </head>
 <body>
     <h1>Creating a tooltip</h1>
+    <div class="myButton" >
+        <button onclick="alert('test')">Here's a button - what does it do?</button>
+        <p class="tip">It doesn't do a damn thing!</p>
+    </div>
+
 </body>
 </html>
