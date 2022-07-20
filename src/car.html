@@ -18,10 +18,15 @@
     * {
         /* border: 1px solid black !important; */
     }
-    
-    .card-container {
-        
+
+    .red {
+        color:red;
     }
+
+    .blue {
+        color: blue;
+    }
+
 </style>
 
 </head>
@@ -42,16 +47,31 @@
     </button>
 </div>
 
+
+<br>
+<br>
+<h2>ALL INFO:</h2>
+<div id="allinfo"></div>
+<button onclick="getCar()">Car Info:</button>
+<br>
 <h2>TIRE INFORMATION</h2>
-<button id="tires" onclick="getTireInfo()">Get Tire Pressure</button>
+<button id="tires" onclick="getTireInfo()" style="border: 1px solid black">Get Tire Pressure</button>
 
 <div id="fl"></div>
 <div id="fr"></div>
 <div id="rl"></div>
 <div id="rr"></div>
+<br>
+<h1>Temperature</h1>
+<div id="current">Current Temp: </div>
+<br>
+<p>Had it with nature? Want to set your own temp?</p>
+<div id="targetTemp">Target Temp:</div>
+<input type="text" style="border: 1px solid black" id="tempSelect">
+<button onclick="setTemp();">Set Temp</button>
 
 
-
+<script>getCar()</script>
 
 </body>
 </html>
