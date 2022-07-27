@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="card.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+
+
+
+</head>
+
+<style>
+    .toggleMe {
+        display: block;
+    }
+
+
+
+    #mousebox {
+        width: 400px;
+        height: 400px;
+        background-color: aqua;
+        border: 1px solid black;
+    }
+
+</style>
+
+<body>
+
+<div id="main">
+    <h1>the DOM</h1>
+    <br>
+    <br>
+    <br>
+    <h2>My List</h2>
+    <ul>
+        <li>line 1</li>
+        <li>line 2</li>
+        <li>line 3</li>
+        <li>line 4</li>
+    </ul>
+
+
+    <!-- card flip experiment -->
+    <div class="card-container">
+        <div class="card" id="card"></div>
+    </div>
+
+</div>
+
+<script src="faq.js"> </script>
+
+<div>
+    <p id="faq">Load FAQs here</p>
+    <script>loadFAQ()</script>
+</div>
+
+
+<div class="copyMe">just try to copy me!</div>
+
+
+<div id="mousebox">
+    <p id="mouselocation">Where is the mouse?</p>
+</div>
+
+
+<div id ="popbox" style="display: none; position: absolute; ;">
+<p> hi there!</p>
+   
+</div>
+
+<script src="sandbox.js"> </script>
+<script src="popup.js"></script>
+</body>
+</html> 

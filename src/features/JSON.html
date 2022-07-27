@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Reading JSON</h1>
+    <hr>
+
+    Click <button onclick="getJSONfromAPI();">HERE</button> to get JSON from Api
+    Click <button onclick="getJSONfromFile();">HERE</button> to get JSON from file
+
+    <p id="results"></p>
+
+</body>
+</html>
+
+<script>
+
+// get data from fetch
+
+
+
+async function getJSONfromAPI() {
+
+    const results = document.getElementById("results");
+    const url = 'https://jsonplaceholder.typicode.com/todos';
+
+    results.innerHTML="<b>Results from API call:</b><br>";
+
+    let response = await fetch(url);
+    let data = await response.text();
+    const myData = JSON.parse(data);
+    myData.forEach(user => {
+        results.innerHTML += `${user.id} : ${user.title} : ${user.userId}<br>`;
+    });
+}
+
+
+async function getJSONfromFile() {
+    const results = document.getElementById("results");
+    const fileLocation = './data/dsg.JSON';
+
+
+    results.innerHTML="<b>Results from reading the JSON file:</b><br>";
+
+    let response = await fetch(fileLocation);
+    let data = await response.text();
+
+    // console.log("got here " + data);
+
+    const myData = JSON.parse(data);
+
+    console.log("data:")
+    console.log(myData[0].ChildFirstName)
+
+    myData.forEach(child => {
+        results.innerHTML += 
+        `${child.ChildFirstName} | 
+        ${child.ChildLastName} | 
+        ${child.ChildAge}  
+        <br>`
+        ;
+    });
+}
+
+
+</script>

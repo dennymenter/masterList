@@ -1,0 +1,562 @@
+[
+    {
+        "Id": "32328E5F-0519-4CBB-A452-068F418667ED",
+        "ChildFirstName": "Nayomi\/Malasia",
+        "ChildLastName": "Collins",
+        "ChildAge": 4,
+        "ChildGuardianFirstName": "Lorie",
+        "ChildGuardianLastName": "Collins",
+        "ChildPhoneNumber": "5624408542",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": true,
+        "NominatorFirstName": "Lorie",
+        "NominatorLastName": "Collins",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "loriecollins68@gmail.com",
+        "NominatorPhoneNumber": "5624408542",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": true,
+        "WrittenRecommendation": "Hello I'm Lorie and Nayomi & Malasia are my two daughters. I'm here trying to get them a bunk bed for the holiday. I'm not able to afford them a bed at this time it's been hard for us for the holidays. any help is much appreciated. Thank you in advance.",
+        "Status": "Accepted",
+        "SubmittedOn": "2021-12-12T15:51:45.823",
+        "AcceptedOn": "2021-12-12T15:51:45.823",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "91D43920-9513-41F9-8A85-1C28487D3768",
+                "NominationId": "32328E5F-0519-4CBB-A452-068F418667ED",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "639F6366-95ED-461C-80A4-D0784C2B1AE2",
+                        "AddressId": "91D43920-9513-41F9-8A85-1C28487D3768",
+                        "AddressField": "City",
+                        "Value": "Bakersfield"
+                    },
+                    {
+                        "Id": "6D1B9658-9133-4A2B-87C9-54360B3A477F",
+                        "AddressId": "91D43920-9513-41F9-8A85-1C28487D3768",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "3D8BC621-C9DB-432F-9F08-EB7F429A163A",
+                        "AddressId": "91D43920-9513-41F9-8A85-1C28487D3768",
+                        "AddressField": "StreetAddress1",
+                        "Value": "1208 Oildale Drive"
+                    },
+                    {
+                        "Id": "95E63AC4-2373-4E26-BD98-7CE875023694",
+                        "AddressId": "91D43920-9513-41F9-8A85-1C28487D3768",
+                        "AddressField": "ZipCode",
+                        "Value": "93308"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "2C9EF821-2DAC-4F29-8661-0A9693522FE9",
+        "ChildFirstName": "Malasia \/ Nayomi",
+        "ChildLastName": "Collins",
+        "ChildAge": 13,
+        "ChildGuardianFirstName": "Lorie",
+        "ChildGuardianLastName": "Collins",
+        "ChildPhoneNumber": "5624408542",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": true,
+        "NominatorFirstName": "Lorie",
+        "NominatorLastName": "Collins",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "loriecollins68@gmail.com",
+        "NominatorPhoneNumber": "5624408542",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": true,
+        "WrittenRecommendation": "I nominated Malaysia and Naomi Collins for a bed because they need one they're sharing a bed and I can't afford to buy them a bunk bed. or big enough bed for the two of them. All her is appreciated thank you in advance.",
+        "Status": "Accepted",
+        "SubmittedOn": "2021-12-09T01: 12: 33.240",
+        "AcceptedOn": "2021-12-09T01: 12: 33.240",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "66DB2B6B-A062-4080-AAF3-A6B01F251AF0",
+                "NominationId": "2C9EF821-2DAC-4F29-8661-0A9693522FE9",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "4618D053-0369-4870-AE16-D65D51CD58D4",
+                        "AddressId": "66DB2B6B-A062-4080-AAF3-A6B01F251AF0",
+                        "AddressField": "City",
+                        "Value": "Bakersfield"
+                    },
+                    {
+                        "Id": "3B3F8C34-CD83-4F7C-8328-C74C7E219414",
+                        "AddressId": "66DB2B6B-A062-4080-AAF3-A6B01F251AF0",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "3DE45DC5-CB7D-45D6-BB5F-91AEDA4EC967",
+                        "AddressId": "66DB2B6B-A062-4080-AAF3-A6B01F251AF0",
+                        "AddressField": "StreetAddress1",
+                        "Value": "1208 Oildale Drive"
+                    },
+                    {
+                        "Id": "21D534C7-5021-46AF-9929-BA1455215486",
+                        "AddressId": "66DB2B6B-A062-4080-AAF3-A6B01F251AF0",
+                        "AddressField": "ZipCode",
+                        "Value": "93308"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "469B4560-75ED-429E-A3F6-11C0280DD7BE",
+        "ChildFirstName": "Lilly",
+        "ChildLastName": "McCaslin",
+        "ChildAge": 11,
+        "ChildGuardianFirstName": "Crisstina",
+        "ChildGuardianLastName": "McCaslin",
+        "ChildPhoneNumber": "7603825567",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": false,
+        "NominatorFirstName": "Crisstina",
+        "NominatorLastName": "McCaslin",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "crisstina.mccaslin@yahoo.com",
+        "NominatorPhoneNumber": "7603825567",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "Both my daughters lost everything they owned in a house fire the day after Christmas and have been sleeping in the floor since.",
+        "Status": "Accepted",
+        "SubmittedOn": "2022-01-29T03: 44: 32.200",
+        "AcceptedOn": "2022-01-29T03: 44: 32.200",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "13304841-F8A0-4B79-8369-077B6F6BA545",
+                "NominationId": "469B4560-75ED-429E-A3F6-11C0280DD7BE",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "5DEA1E74-4CE5-43F6-856C-E7D75A605796",
+                        "AddressId": "13304841-F8A0-4B79-8369-077B6F6BA545",
+                        "AddressField": "City",
+                        "Value": "Taft"
+                    },
+                    {
+                        "Id": "BF23E36C-386D-48AF-9A9D-BAA06DE5B40D",
+                        "AddressId": "13304841-F8A0-4B79-8369-077B6F6BA545",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "61C62E93-26CF-4605-8F4B-E828A9277B92",
+                        "AddressId": "13304841-F8A0-4B79-8369-077B6F6BA545",
+                        "AddressField": "StreetAddress1",
+                        "Value": "301 Buena Vista St"
+                    },
+                    {
+                        "Id": "81DCBC02-B35E-47E1-A762-EF14D65EC9DC",
+                        "AddressId": "13304841-F8A0-4B79-8369-077B6F6BA545",
+                        "AddressField": "ZipCode",
+                        "Value": "93268-4037"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "702D1689-CC9D-4ADC-B05B-27C00486FABD",
+        "ChildFirstName": "journey",
+        "ChildLastName": "davidson",
+        "ChildAge": 3,
+        "ChildGuardianFirstName": "robert",
+        "ChildGuardianLastName": "chambers",
+        "ChildPhoneNumber": "6618259262",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": true,
+        "NominatorFirstName": "robert",
+        "NominatorLastName": "chambers",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "robertchambers93504@gmail.com",
+        "NominatorPhoneNumber": "6618259262",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "hello i sent a email already but then i went to orginal web for this store so i hope an pray u can read other bout why this kid needs a bed he has no bed his mother just moved to bakersfeild ca an had to leave alot behind",
+        "Status": "Accepted",
+        "SubmittedOn": "2021-10-05T15:43:49.657",
+        "AcceptedOn": "2021-10-05T15:43:49.657",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "ED46BDC4-D542-4EE7-9791-A54EACA4BA22",
+                "NominationId": "702D1689-CC9D-4ADC-B05B-27C00486FABD",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "90BACD4E-34F0-4EDD-AB4C-71FC7DB9FDB2",
+                        "AddressId": "ED46BDC4-D542-4EE7-9791-A54EACA4BA22",
+                        "AddressField": "City",
+                        "Value": "bakersfeild"
+                    },
+                    {
+                        "Id": "367075F3-038F-4381-9B3E-4163DF47C6CA",
+                        "AddressId": "ED46BDC4-D542-4EE7-9791-A54EACA4BA22",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "59A10DA1-54E0-4558-8296-3FA55D201ABE",
+                        "AddressId": "ED46BDC4-D542-4EE7-9791-A54EACA4BA22",
+                        "AddressField": "StreetAddress1",
+                        "Value": "131 el tejon ave APt#A"
+                    },
+                    {
+                        "Id": "ECA777EF-03C5-4AAE-B23E-C55EA2D03740",
+                        "AddressId": "ED46BDC4-D542-4EE7-9791-A54EACA4BA22",
+                        "AddressField": "ZipCode",
+                        "Value": "93308"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "72772135-630B-47E5-8DF2-3603EE9711E1",
+        "ChildFirstName": "Kaely",
+        "ChildLastName": "Cardena",
+        "ChildAge": 10,
+        "ChildGuardianFirstName": "Yvette",
+        "ChildGuardianLastName": "Tejeda",
+        "ChildPhoneNumber": "6617178852",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": false,
+        "NominatorFirstName": "Yvette",
+        "NominatorLastName": "Tejeda",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "yvetterivera86@gmail.com",
+        "NominatorPhoneNumber": "6617178852",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "She really needs a bead to sleep comfortable and able to rest during night we are unable to buy one for her.",
+        "Status": "Accepted",
+        "SubmittedOn": "2020-08-14T10: 35: 43.013",
+        "AcceptedOn": "2020-08-14T10: 35: 43.013",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "48010E5C-5415-4E8E-AE31-E732E3D5A130",
+                "NominationId": "72772135-630B-47E5-8DF2-3603EE9711E1",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "01F0FDC0-BD4B-47F4-9511-22249A96560D",
+                        "AddressId": "48010E5C-5415-4E8E-AE31-E732E3D5A130",
+                        "AddressField": "City",
+                        "Value": "Bakersfield"
+                    },
+                    {
+                        "Id": "5DF91924-3EFF-46E9-8200-D9567D9AE998",
+                        "AddressId": "48010E5C-5415-4E8E-AE31-E732E3D5A130",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "462AED25-6EC4-410A-9FD5-F8AA43FC5CB3",
+                        "AddressId": "48010E5C-5415-4E8E-AE31-E732E3D5A130",
+                        "AddressField": "StreetAddress1",
+                        "Value": "3312 Cardamon Dr"
+                    },
+                    {
+                        "Id": "3C32F68E-249C-48DC-B824-3F649E0129E5",
+                        "AddressId": "48010E5C-5415-4E8E-AE31-E732E3D5A130",
+                        "AddressField": "ZipCode",
+                        "Value": "93309-6205"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "A31150B6-47F1-46F7-A376-45C629BE3D9F",
+        "ChildFirstName": "Tyler",
+        "ChildLastName": "Thompson",
+        "ChildAge": 6,
+        "ChildGuardianFirstName": "Sarah",
+        "ChildGuardianLastName": "Orms",
+        "ChildPhoneNumber": "9708935230",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": false,
+        "NominatorFirstName": "shayna",
+        "NominatorLastName": "koran",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "skoran@mail.coloradomtn.edu",
+        "NominatorPhoneNumber": "9709307703",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "My nephew has had a very tough 6 years of life. His dad is currently serving a prison sentence for shooting his mother. Good thing she survived, she is now a single mother of boy 6 and 10 in California. She works part time and is struggling to get in her feet. These boys have witness addiction, trauma, lose, abandonment Among other things",
+        "Status": "Accepted",
+        "SubmittedOn": "2022-05-03T19: 49: 10.913",
+        "AcceptedOn": "2022-05-03T19: 49: 10.913",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "056A89C8-8B1C-455B-9AAC-CEB22BE80BBC",
+                "NominationId": "A31150B6-47F1-46F7-A376-45C629BE3D9F",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "D991448E-3D94-47DA-B71D-59E60D77B8C1",
+                        "AddressId": "056A89C8-8B1C-455B-9AAC-CEB22BE80BBC",
+                        "AddressField": "City",
+                        "Value": "Bakersfield"
+                    },
+                    {
+                        "Id": "FE46A31E-646F-49EB-A7F3-01471AC3C064",
+                        "AddressId": "056A89C8-8B1C-455B-9AAC-CEB22BE80BBC",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "BB983007-DC6E-4D39-9013-4247C1B375F3",
+                        "AddressId": "056A89C8-8B1C-455B-9AAC-CEB22BE80BBC",
+                        "AddressField": "StreetAddress1",
+                        "Value": "13901 Rosedale Hwy"
+                    },
+                    {
+                        "Id": "A8C82073-23DF-49AA-BB8F-640F5D961FB0",
+                        "AddressId": "056A89C8-8B1C-455B-9AAC-CEB22BE80BBC",
+                        "AddressField": "ZipCode",
+                        "Value": "93314-8411"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "32A8D8E0-97D4-4F05-8F15-6C3FFAED63C5",
+        "ChildFirstName": "journey",
+        "ChildLastName": "davidson",
+        "ChildAge": 3,
+        "ChildGuardianFirstName": "leikeysha",
+        "ChildGuardianLastName": "davidson-webster",
+        "ChildPhoneNumber": "6618259262",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": true,
+        "NominatorFirstName": "robert",
+        "NominatorLastName": "chambers",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "robertchambers93504@gmail.com",
+        "NominatorPhoneNumber": "6618259262",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "his month has ebt program an just move an had to leave some things behind he is a 3 year old autistic and mild intellectual disabiled boy who loves to sleep in his own bed but now he sleeps in moms bed due to having to leave his bed behind due to moving i know hed love his bed when i saw this ad bout ur program he came to mind plz bless this baby with his own bed god bless",
+        "Status": "Accepted",
+        "SubmittedOn": "2021-10-05T15: 36: 57.150",
+        "AcceptedOn": "2021-10-05T15: 36: 57.150",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "741C2B4E-81C3-4D31-9F9E-6DF44F1F9C12",
+                "NominationId": "32A8D8E0-97D4-4F05-8F15-6C3FFAED63C5",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "7188830D-B74C-4143-8B33-5602B656BBD7",
+                        "AddressId": "741C2B4E-81C3-4D31-9F9E-6DF44F1F9C12",
+                        "AddressField": "City",
+                        "Value": "Bakersfield"
+                    },
+                    {
+                        "Id": "C763DDD1-0305-4D7A-B05D-CAE8EE417672",
+                        "AddressId": "741C2B4E-81C3-4D31-9F9E-6DF44F1F9C12",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "AE4C357A-D0AA-4FFF-9171-6E88FD5C8433",
+                        "AddressId": "741C2B4E-81C3-4D31-9F9E-6DF44F1F9C12",
+                        "AddressField": "StreetAddress1",
+                        "Value": "131 El Tejon Ave APt#A"
+                    },
+                    {
+                        "Id": "77DDCFE0-EA40-46D1-AFDE-FB218CFF2AA2",
+                        "AddressId": "741C2B4E-81C3-4D31-9F9E-6DF44F1F9C12",
+                        "AddressField": "ZipCode",
+                        "Value": "93308-3400"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "3BD2A953-0DC5-4533-845C-755D29C2D575",
+        "ChildFirstName": "Ivy",
+        "ChildLastName": "McCaslin",
+        "ChildAge": 7,
+        "ChildGuardianFirstName": "Crisstina",
+        "ChildGuardianLastName": "McCaslin",
+        "ChildPhoneNumber": "7603825567",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": false,
+        "NominatorFirstName": "Crisstina",
+        "NominatorLastName": "McCaslin",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "crisstina.mccaslin@yahoo.com",
+        "NominatorPhoneNumber": "7603825567",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "Both my daughters lost everything they owned in a house fire the day after Christmas and have been sleeping in the floor since.",
+        "Status": "Accepted",
+        "SubmittedOn": "2022-01-29T03: 42: 20.877",
+        "AcceptedOn": "2022-01-29T03: 42: 20.877",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "A168C3F4-0FA9-4748-A563-CC2291A829BD",
+                "NominationId": "3BD2A953-0DC5-4533-845C-755D29C2D575",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "A35BDED1-D9E5-4016-B0D9-EDD7395FE568",
+                        "AddressId": "A168C3F4-0FA9-4748-A563-CC2291A829BD",
+                        "AddressField": "City",
+                        "Value": "Taft"
+                    },
+                    {
+                        "Id": "7A02CDAB-704A-4614-B851-4387020AB1F7",
+                        "AddressId": "A168C3F4-0FA9-4748-A563-CC2291A829BD",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "ADA7496D-122D-4D7E-BBBB-F40621771087",
+                        "AddressId": "A168C3F4-0FA9-4748-A563-CC2291A829BD",
+                        "AddressField": "StreetAddress1",
+                        "Value": "301 Buena Vista St"
+                    },
+                    {
+                        "Id": "092DBDA8-7C0E-4AD4-810B-A11E3A892F99",
+                        "AddressId": "A168C3F4-0FA9-4748-A563-CC2291A829BD",
+                        "AddressField": "ZipCode",
+                        "Value": "93268-4037"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "AF3A2F22-4449-446E-A638-88902F77842A",
+        "ChildFirstName": "liliana",
+        "ChildLastName": "nicolas",
+        "ChildAge": 7,
+        "ChildGuardianFirstName": "Delia",
+        "ChildGuardianLastName": "Gutierrez",
+        "ChildPhoneNumber": "6613140906",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": false,
+        "NominatorFirstName": "Delia",
+        "NominatorLastName": "Gutierrez",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "gutierrezdelia387@gmail.com",
+        "NominatorPhoneNumber": "6613140906",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "We just moved to bakersfield from Los angeles, I am a single mother with three kids. We sleep all on one bed.",
+        "Status": "Accepted",
+        "SubmittedOn": "2021-10-03T21: 52: 37.377",
+        "AcceptedOn": "2021-10-03T21: 52: 37.377",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "AF134A9B-E360-4F83-981E-DA3DD5292B30",
+                "NominationId": "AF3A2F22-4449-446E-A638-88902F77842A",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "82C11DC7-5FBB-406C-AAAA-6CB9D48663A2",
+                        "AddressId": "AF134A9B-E360-4F83-981E-DA3DD5292B30",
+                        "AddressField": "City",
+                        "Value": "Bakersfield"
+                    },
+                    {
+                        "Id": "D6A2A1FC-FB2D-4FB3-9BF4-8241997733A8",
+                        "AddressId": "AF134A9B-E360-4F83-981E-DA3DD5292B30",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "EEE9B6C4-8E56-4D00-B01B-9342BC52F1E3",
+                        "AddressId": "AF134A9B-E360-4F83-981E-DA3DD5292B30",
+                        "AddressField": "StreetAddress1",
+                        "Value": "4729 Baybrook Way"
+                    },
+                    {
+                        "Id": "5E52046F-870E-4E71-A3DF-698353A7C36A",
+                        "AddressId": "AF134A9B-E360-4F83-981E-DA3DD5292B30",
+                        "AddressField": "ZipCode",
+                        "Value": "93313-4007"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "DA3A40EE-4895-464A-A4B1-BC54A45530CB",
+        "ChildFirstName": "Siiyaa",
+        "ChildLastName": "O'Brien",
+        "ChildAge": 5,
+        "ChildGuardianFirstName": "La Shawnda",
+        "ChildGuardianLastName": "O'Brien",
+        "ChildPhoneNumber": "4044229927",
+        "ChildCountry": "USA",
+        "UseChildAddressAsIs": false,
+        "NominatorFirstName": "La Shawnda",
+        "NominatorLastName": "O'Brien",
+        "NominatorRelationToChild": "Parent, Guardian or Relative",
+        "NominatorEmailAddress": "lobrien0277@gmail.com",
+        "NominatorPhoneNumber": "4044229927",
+        "NominatorCountry": "USA",
+        "UseNominatorAddressAsIs": false,
+        "WrittenRecommendation": "My daughter has never had a bed of her own we have been living in motels because we are fleeing domestic violence abuse. We finally have a safe place to call our own and she has nothing in her room. She is the sweetest girl and she loves me so much. This would make her so happy after everything she has ben thru with my ex spouse. I am on Calworks and can not afford to buy her a bed with what I get a month. We both sleep on the couch.",
+        "Status": "Accepted",
+        "SubmittedOn": "2022-01-31T19: 10: 21.047",
+        "AcceptedOn": "2022-01-31T19: 10: 21.047",
+        "ChampionId": "EFDC29B2-750B-014D-9594-92A78D2D11F3",
+        "a": [
+            {
+                "Id": "CEDE20EA-96EB-45D5-B3AF-74F42F90927C",
+                "NominationId": "DA3A40EE-4895-464A-A4B1-BC54A45530CB",
+                "Type": "Child",
+                "v": [
+                    {
+                        "Id": "488B0169-C682-48DD-BE8B-79DC4F5B4A09",
+                        "AddressId": "CEDE20EA-96EB-45D5-B3AF-74F42F90927C",
+                        "AddressField": "City",
+                        "Value": "Wasco"
+                    },
+                    {
+                        "Id": "F73F792A-0333-4259-99B1-734D40BB417E",
+                        "AddressId": "CEDE20EA-96EB-45D5-B3AF-74F42F90927C",
+                        "AddressField": "State",
+                        "Value": "CA"
+                    },
+                    {
+                        "Id": "88C80061-56E0-4B7D-A6A1-801868722740",
+                        "AddressId": "CEDE20EA-96EB-45D5-B3AF-74F42F90927C",
+                        "AddressField": "StreetAddress1",
+                        "Value": "826 9th St"
+                    },
+                    {
+                        "Id": "3DBE211F-EFA1-4847-8A91-EA1B7ABA0726",
+                        "AddressId": "CEDE20EA-96EB-45D5-B3AF-74F42F90927C",
+                        "AddressField": "ZipCode",
+                        "Value": "93280-1938"
+                    }
+                ]
+            }
+        ]
+    }
+]

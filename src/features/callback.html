@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    #myConsole {
+        border: 1px solid grey;
+        box-shadow: 8px 5px 12px 0px gray;
+        width: 50%;
+        font-size: x-small;
+        min-height: 2em;
+    }
+</style>
+
+</head>
+<body>
+    
+    <h1>callback function with custom on screen console</h1>
+
+    Click <button onclick="callMe()">THIS</button> to run a function with a call back.
+    <pre>Log console:</pre>
+    <p id="myConsole"></p>
+
+</body>
+
+</html>
+
+
+
+<script>
+    function callMe() {
+        logMe("inside main function");
+        logMe("trying a function with a call back");
+        callTest(logMe);
+        callTest(callBack2);
+    }
+
+    function callTest(myCallback) {
+        logMe("in callTest now");
+        myCallback("logged from the callback!!!!!");
+    }
+
+
+    function logMe(logText) {
+        const errText = document.getElementById("myConsole");
+        errText.innerHTML+= `<pre>${logText}</pre>`;
+    }
+
+    function callBack2 () {
+        logMe("SECOND VERSION OF CALLBACK");
+    }
+
+</script>
