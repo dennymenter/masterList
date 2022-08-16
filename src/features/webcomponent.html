@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    class ComponentDemonstation extends HTMLElement {
+    connectedCallback() {
+    this.innerHTML = `<h3>This is a demonstration of Custom elements</h3>`;
+      }
+    }   
+    
+    customElements.define('component-demo', ComponentDemonstation);
+
+
+</script>
+
+</head>
+<body>
+    
+    <h1>Custom Web Component</h1>
+
+    <component-demo></component-demo>
+
+<a href="https://www.codeguru.com/soap/web-components-api/">SOURCE</a>
+
+
+</body>
+</html>
