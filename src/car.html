@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/output.css"> -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/car.css">
 
     <!-- TO DO - replace this -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script src="./js/car.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
     <title>Tesla</title>
 
@@ -75,6 +77,23 @@
 <img src="./images/tesla.jpg" alt="">
 
 <script>getCar()</script>
+
+
+
+
+
+<div id="map"></div>
+   <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=places&v=weekly"
+      defer
+    ></script>
+
 
 </body>
 </html>

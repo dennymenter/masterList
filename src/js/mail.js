@@ -9,7 +9,7 @@ function sendMail() {
     headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
-    'api-key': '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'
+    'api-key': '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'
     },
     body: JSON.stringify({
     sender: {name: 'Denny', email: 'denny_menter@yahoo.como'},
