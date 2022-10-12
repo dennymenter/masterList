@@ -120,7 +120,7 @@ function startClimate() {
     .then(response => console.log(response))
     .catch(err => console.error(err));
 
-    alert("Car is bing set to your requested temperature");
+    alert("Car is being set to your requested temperature");
 
 }
 
