@@ -5,10 +5,7 @@ export function getHomeElements () {
 	let mainTitle = document.getElementById("title");
 	let subtitle = document.getElementById("subtitle");
 	
-	logMe("<hr><br><br><br><b><i>custom logging:</b></i>");
-
-	logMe("starting fetch");
-
+	
 	fetch(
 	  'https://api-us-east-1.graphcms.com/v2/cl3aevzvn0kz401yyd0d8cmc9/master',
 	  {
@@ -44,7 +41,7 @@ export function getHomeElements () {
 
 		const home  = res.data;
 
-		logMe("populating fetched fields");
+
 
 		mainTitle.innerText = home.homePages[0].title;
 		subtitle.innerHTML = home.homePages[0].siteDescription.html;
@@ -55,10 +52,9 @@ export function getHomeElements () {
 		
 		try {
 			loader.classList.remove("body-background");	
-			logMe("loading image removed");
+
 		} catch (error) {
-			logMe ("loader element > " + error);
-			logMe("background not removed");
+
 		}
 				
 		
